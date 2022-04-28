@@ -71,6 +71,9 @@ tx_receipt = w3.eth.wait_for_transaction_receipt(tx_hash)
 print(f"Done! Contract deployed to {tx_receipt.contractAddress}")
 #print(type(tx_receipt.contractAddress))
 
+with open("contractAddress", "w") as f:
+    f.write(tx_receipt.contractAddress)
+
 simple_storage = w3.eth.contract(address=tx_receipt.contractAddress, abi=abi)
 
 # def transaction(address, w3, contract, chain_id, private_key)
@@ -87,15 +90,15 @@ for pp in result:
     cnt = cnt + 1
 
 # 0 1
-x = ""
-while(x != "exit"):
-    x = input()
-    x = int(x)
-    kk = simple_storage.functions.getData(x).call()
-    kk = decode(kk)
-    print(kk)
-#hemoglobin
-print("End of the program. Exit successfully.")
+# x = ""
+# while(x != "exit"):
+#     x = input()
+#     x = int(x)
+#     kk = simple_storage.functions.getData(x).call()
+#     kk = decode(kk)
+#     print(kk)
+# #hemoglobin
+# print("End of the program. Exit successfully.")
 # print(f"Initial Stored Value {simple_storage.functions.retrieve().call()}")
 
 # print(nonce)

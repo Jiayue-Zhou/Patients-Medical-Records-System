@@ -80,7 +80,14 @@ contract PatientRecord {
         return idToPeople[id].aggregation;
     }
 
+    function getTotal() external view returns(People[] memory) {
+        return people;
+    }
+
     function getCovidResult(uint256 id) external view returns(uint8) {
         return idToPeople[id].covid19_Res;
+    }
+    function getPeopleRecordNum() external view returns(uint256) {
+        return index;
     }
 }
