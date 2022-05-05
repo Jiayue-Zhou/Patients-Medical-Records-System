@@ -139,7 +139,7 @@ export default {
       axios.post(path, val)
         .then((response) => {
           console.log('Submit Success.');
-          const message = `Our AI predict your result is ${response.data.answer}.`;
+          const message = `Our AI predicts your result is ${response.data.answer}.`;
           alert(message);
           console.log(response.data.answer);
         });

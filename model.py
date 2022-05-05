@@ -67,7 +67,7 @@ def algo(df, dp):
     elif (y_pred[0] == 1):
         y_pred = "Positive"
     print(f'Current records number is {df.shape[0]}')
-    print(f'The AI predict you are {y_pred}!')
+    print(f'The AI predicts you are {y_pred}!')
     from sklearn.metrics import classification_report
 
     y_pred_2 = svm1.predict(X_test)
