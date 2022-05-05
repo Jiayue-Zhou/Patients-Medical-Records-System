@@ -46,3 +46,8 @@ It is a 16 bits integer and will be rendered randomly once the data is uploaded 
 the blockchain. Also, as doctors, they are able to upload and store data to the blockchain
 while patients can only enter a datapoint and get a predicted result.
 (The datapoint entered by the patient will not be stored on the blockchain)
+
+
+Weiting Li and Drew Klaubert contribute to the model.py.
+
+Jiayue Zhou does all designing and coding work for this project.
