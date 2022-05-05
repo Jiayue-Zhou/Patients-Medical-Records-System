@@ -1,7 +1,7 @@
 <h2>A Patients Medical Records System</h2>
 
 <h3>Building the application</h3>
-I recommend to use **Ganache** for testing the smart contract. Once built
+I recommend to use __Ganache__ for testing the smart contract. Once built
 your personal blockchain, you should replace the TEST_URL 
 , MY_ADDRESS, PRIVATE_KEY in the initialize_my_contract.py.
 You should also change the import_existing_data.py for importing
@@ -16,14 +16,14 @@ You can check all that information in Ganache.
 Then you can run server.py to run the back-end
 and use npm to run the front-end. Once running the website,
 you are also able to monitor the status of accounts by
-**Metamask**.
+__Metamask__.
 
 
 
 
 
 <h3>Back-End</h3>
-I use **Flask** to build the back-end and **Solidity** to build the
+I use __Flask__ to build the back-end and __Solidity__ to build the
 smart contract. 
 patientRecordContract.sol is the Solidity file, and I use aggregation.py
 to aggregation all features together for better store on blockchain.
@@ -37,7 +37,7 @@ With the number of data increasing by uploading from doctors, the machine learni
 is also supposed to have more data to train itself.
 
 <h3>Front-end</h3>
-I use **Vue.js** for the front-end. I have two views for patients and doctors.
+I use __Vue.js__ for the front-end. I have two views for patients and doctors.
 The front-end is responsible for users to enter data and interact with the back-end
 to get the information from the blockchain or the machine learning model.
 
