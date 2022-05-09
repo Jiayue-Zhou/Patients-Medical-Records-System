@@ -50,7 +50,3 @@ while patients can only enter a datapoint and get a predicted result.
 
 
 ![image](https://github.com/Jiayue-Zhou/Patients-Medical-Records-System/blob/master/image_for_introduction/introduction_gif.gif)
-
-Weiting Li and Drew Klaubert contribute to the model.py.
-
-Jiayue Zhou does all designing and coding work for this project.
